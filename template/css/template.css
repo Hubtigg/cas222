@@ -1,0 +1,99 @@
+/*CSS Document*/
+
+* { box-sizing: border-box; }
+
+header, nav, main, footer { display: block; }
+
+#wrapper {
+       background-color: #ffffff;
+       margin-left: auto;
+       margin-right: auto;
+       width: 80%; min-width: 1024px;
+       box-shadow: 5px 5px 5px #1e1e1e;
+       margin-top: 0;
+       margin-bottom: 0;
+     }
+header {
+       background-image: linear-gradient(to right, #000000, #ff0000, #000000);
+       background-repeat: no-repeat;
+       color: #FFFFFF;
+       font-family: wire one, helvetica, sans-serif;
+     }
+body { 
+       background-color: #FFFFFF;
+       background-image: url("../../images/test.jpg");
+       color: #300976;
+       font-family: Verdana, Arial, sans-serif;
+     }
+h1 {   
+       line-height: 72px;
+       padding-left: 2em;
+       margin-bottom: 0;
+     }
+nav {  
+       background-color: #000000;
+       text-align: center;
+       line-height: 200%;
+       font-weight: bold;
+       padding: 0;
+     }
+nav a:link {
+       color: #FFFFFF;
+     }
+nav a:visited {
+       color: #6aa2bb;
+     }
+nav a:hover {
+       color: #CCcc00;
+     }
+main { 
+       margin-right: 340px;
+       background-color: #ffffff;
+       display: block;
+       padding-right: 2em;
+       padding-left: 2em;
+       padding-top: 1px;
+       padding-bottom: 1px;
+     }
+aside  {
+      
+       color: #FFFFFF;
+       background-color: #ff0000;
+       width: 240px;
+       float: right;
+       display: block;
+       padding-right: 2em;
+       padding-left: 2em;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       margin-right:40px;
+       font-size: .9em;
+     }
+nav a {
+       text-decoration: none;
+     }
+h3 {
+       color: #000000;
+     }
+img {
+       padding-left: 30px;
+     }
+p  {
+       padding-left: 30px;
+     }
+h2 {   
+       color: #6aa2bb;
+       font-family: Georgia, serif;
+     }
+
+footer {
+       color: #ffffff;
+       background-color: #000000;
+       padding: 1em;
+       font-size: .7em;
+       font-style: italic;
+       text-align: center;
+     }
+footer a:link {
+       color: #6aa2bb;
+     }
