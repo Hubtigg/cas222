@@ -1,0 +1,219 @@
+/*CSS Document*/
+
+* { box-sizing: border-box; }
+
+header, nav, main, footer { display: block; }
+
+#wrapper {
+       background-color: #ffffff;
+       margin-left: auto;
+       margin-right: auto;
+       width: 80%;
+       box-shadow: 5px 5px 5px #1e1e1e;
+       margin-top: 0;
+       margin-bottom: 0;
+     }
+header {
+       display: block;
+       height: 120px;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+       background-image: linear-gradient(to right, #ffffff, #ff0000, #000000);
+       background-repeat: no-repeat;
+       color: #FFFFFF;
+       font-family: wire one, helvetica, sans-serif;
+     }
+header img {
+       margin: 0px;
+       padding: 10px;
+     }
+.v-center {
+  position: relative;
+  top: 0%;
+  transform: translateY(-100%);
+     }
+body { 
+       background-color: #FFFFFF;
+       background-image: url("../../images/test.jpg");
+       color: #300976;
+       font-family: Verdana, Arial, sans-serif;
+     }
+h1 {   
+       display: inline-block;
+       padding-left: 0;
+       margin-bottom: 0;
+     }
+nav {  
+       display: block;
+       float: none;
+       background-color: #000000;
+       text-align: center;
+       line-height: 200%;
+       font-weight: bold;
+       padding: 0;
+       margin: 0;
+       width: auto;
+     }
+nav a:link {
+       color: #FFFFFF;
+     }
+nav a:visited {
+       color: #6aa2bb;
+     }
+nav a:hover {
+       color: #CCcc00;
+     }
+
+aside  {
+      
+       color: #FFFFFF;
+       background-color: #ff0000;
+       width: 240px;
+       float: right;
+       display: block;
+       padding-right: 2em;
+       padding-left: 2em;
+       padding-top: 40px;
+       margin-bottom: 20px;
+	   margin-top:40px;
+       margin-right:40px;
+       font-size: .9em;
+     }
+main { 
+       
+       background-color: #ffffff;
+       display: block;
+       padding-right: 2em;
+       padding-left: 2em;
+       padding-top: 1px;
+       padding-bottom: 1px;
+     }
+
+#desktop {
+       width: 100%;
+       display: block;
+       color: #000000;
+     }
+nav a {
+       text-decoration: none;
+     }
+h3 {
+       color: #000000;
+     }
+img {
+       padding-left: 30px;
+     }
+p  {
+       padding-left: 30px;
+     }
+h2 {   
+       color: #6aa2bb;
+       font-family: Georgia, serif;
+     }
+
+footer {
+       color: #ffffff;
+       background-color: #000000;
+       padding: 1em;
+       font-size: .7em;
+       font-style: italic;
+       text-align: center;
+     }
+footer a:link {
+       color: #6aa2bb;
+     }
+#honeypot {
+     display: none;
+}
+
+/* RESPONSIVE DESIGN */
+
+#mobile { display: none; }
+#desktop { display: inline; }
+
+@media only screen and (max-width: 1024px) {
+
+body { 
+       margin: 0;
+       padding: 0;
+       background-image: none;
+     }
+
+#wrapper {
+       margin: 0;
+       width: auto; min-width: 0;
+       box-shadow: none;
+     }
+h1 {   
+       margin: 0;
+     }
+nav {  
+       width: 100%;
+       float: none;
+       padding: 0;
+     }
+nav li {
+       display: block;
+       padding-left: 2em;
+       padding-right: 2em;
+     }
+nav a {
+       text-align: center;
+       line-height: 200%;
+       width: 100%
+       padding-left: 2em;
+       padding-right: 2em;
+     }
+main { 
+       margin-left: 0;
+       padding: 1em;
+       font-size: 90%;
+     }
+footer {
+       margin: 0;
+     }
+
+}
+
+@media only all and (max-width: 768px) {
+
+#mobile { display: inline; background-color: #000000; }
+#desktop { display: none; }
+
+
+h1 {   
+       height: 100%;
+       font-size: 1.5em;
+       padding-left: 0.3em;
+     }
+nav {  
+       padding: 0;
+     }
+nav ul {
+       padding: 0;
+       margin: 0;
+     }
+nav li {
+       padding: 0;
+       margin: 0;
+       display: block;
+     }
+nav a {
+       display: block;
+       line-height: 100%;
+       padding: 0;
+       font-size: 1.1em;
+       border-bottom: 1px #330000;
+     }
+main { 
+       padding-left: 0.4em;
+       padding-top: 0.1em;
+       padding-right: 0.6em;
+       padding-bottom: 0.1em;
+     }
+footer {
+       padding: 0;
+     }
+
+}
